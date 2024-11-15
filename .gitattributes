@@ -6,3 +6,4 @@
 *.tsx text eol=lf
 *.cts text eol=if
 *.cjs text eol=if
+* text=auto eol=lf

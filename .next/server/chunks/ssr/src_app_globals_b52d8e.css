@@ -301,8 +301,28 @@ img, video {
   display: none;
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .fixed {
   position: fixed;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.top-0 {
+  top: 0;
 }
 
 .mx-auto {
@@ -376,6 +396,10 @@ img, video {
 
 .h-\[calc\(100vh-8rem\)\] {
   height: calc(100vh - 8rem);
+}
+
+.h-full {
+  height: 100%;
 }
 
 .min-h-screen {
